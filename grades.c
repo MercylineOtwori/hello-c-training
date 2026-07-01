@@ -7,7 +7,7 @@ float average(int scores[], int count) {
 			return (float)sum / count;
 			}
 char getGrade(float avg) {
-	if (avg >= 80) return 'A';
+	if (avg >= 70) return 'A';
 	if (avg >= 60) return 'B';
 	if (avg >= 40) return 'C';
 	return 'F';
