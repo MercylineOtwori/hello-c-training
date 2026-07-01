@@ -55,6 +55,12 @@ int main(void) {
 	printf("Student: %s\n", name);
 	printf("Average: %.2f\n", avg);
 	printf("Grade: %c\n", grade);
+
+	if (grade == 'F') {
+		printf("Result; FAIL\n");
+	} else {
+		printf("Result: PASS\n");
+	}
 	printf("Highest: %d\n", highest);
 	printf("Lowest: %d\n", lowest);
 
